@@ -3,6 +3,6 @@ from . import views
 from django.conf import settings
 
 urlpatterns = [
-    path('', views.getTopic),
+    path('', views.topic_list),
     # path('post/', views.postTopic),
 ]
